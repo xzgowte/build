@@ -1,5 +1,3 @@
-From ghcr.io/basketikun/chatgpt2api:latest
+FROM ghcr.io/xerxes-2/clewdr:latest
 
-EXPOSE 8080
-
-CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080", "--access-log"]
+EXPOSE 8484
